@@ -52,8 +52,10 @@
 		ED94EE6226C2C6DD00B62B25 /* EmojiArt */ = {
 			isa = PBXGroup;
 			children = (
+				EDB1793626C69D3B0049992F /* ViewModel */,
+				EDB1793526C69D340049992F /* View */,
+				EDB1793426C69D210049992F /* Model */,
 				ED94EE6326C2C6DD00B62B25 /* EmojiArtApp.swift */,
-				ED94EE6526C2C6DD00B62B25 /* ContentView.swift */,
 				ED94EE6726C2C6DE00B62B25 /* Assets.xcassets */,
 				ED94EE6C26C2C6DE00B62B25 /* Info.plist */,
 				ED94EE6926C2C6DE00B62B25 /* Preview Content */,
@@ -67,6 +69,28 @@
 				ED94EE6A26C2C6DE00B62B25 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDB1793426C69D210049992F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDB1793526C69D340049992F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED94EE6526C2C6DD00B62B25 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EDB1793626C69D3B0049992F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
